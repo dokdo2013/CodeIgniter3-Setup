@@ -2,13 +2,7 @@
 실제 서버에 바로 배포하여 사용할 수 있도록 커스터마이징된 코드이그나이터3 최종배포판 (ver 3.1.1)
 
 ## 사용법
-#### 1) .htaccess 파일 수정
-5번째 줄 {{주소입력}} 영역 대체
-```
-http://example.com/$1
-```
-
-#### 2) application/config/config.php 파일 수정
+#### application/config/config.php 파일 수정
 26번째 줄 {{주소입력}} 영역 대체
 ```php
 $config['base_url'] = 'http://example.com';
